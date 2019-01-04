@@ -1,0 +1,140 @@
+
+.bg {
+	z-index: 9998;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.3);
+}
+.but {
+	display: block;
+	width: 40%;
+	height: 30px;
+	margin: auto;
+	margin-top: 10%;
+	background: gold;
+	cursor: pointer;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 15px;
+}
+.butSign {
+	display: block;
+	width: 40%;
+	padding: 10px 0 10px 0;
+	border: 2px solid #3F3F3F;
+	font-weight: bold;
+	margin: auto;
+	cursor: pointer;
+	background-color: gold;
+	text-align: center;
+}
+.butSign:hover {
+	color: #B7B7B7;
+}
+.catalog {
+	width: 60%;
+	min-height: 550px;
+	margin: auto;
+	list-style: none;
+	padding: 0;
+	margin-top: 50px;
+}
+.catalog_item {
+	position: relative;
+	display: inline-block;
+	margin: 1%;
+	min-width: 31%;
+}
+.catalog_item:hover .content_item{
+	display: block;
+}
+.content {
+	display: block;
+	margin: auto;
+	width: 40%;
+	overflow: hidden;
+	border: 2px solid #3F3F3F;
+	border-top: none;
+	text-align: left;
+	background: #7F7F7F;
+}
+.content_item {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 98.5%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0,0,0,0.73);
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.filter:hover {
+	background: rgba(0,0,0,0.73);
+}
+.form__input {
+	margin: 2%;
+	width: 35%;
+	border-color: gold;
+}
+.form__button {
+	width: 17%;
+}
+.menu {
+	width: 25%;
+	margin: auto;
+	margin-top: 200px;
+	display: block;
+}
+.modal {
+	z-index: 9999;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	min-width: 250px;
+	padding: 15px;
+	border-radius: 10px;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	background: #fff;
+}
+.radio .filter {
+	display: block;
+	width: 22%;
+	margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+	cursor: pointer;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	color: #7F7F7F;
+}
+.radio input {
+  display: none;
+}
+.radio input:checked + .filter {
+  	border: 2px solid #3F3F3F;
+	border-radius: 5px;
+}
+span {
+	display: block;
+	width: 100%;
+	margin-top: 30%;
+	color: #fff;
+	font-family: Georgia;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+
+
+
+
