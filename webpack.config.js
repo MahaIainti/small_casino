@@ -35,7 +35,7 @@ module.exports = {
         ]
     },
     output: {
-        path: 'src',
+        path: path.resolve(__dirname, './src'),
         filename: 'js/bundle.min.js'
     },
     plugins: [

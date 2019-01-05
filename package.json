@@ -1,14 +1,15 @@
 {
-  "name": "redux",
+  "name": "Kazino",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack",
-    "start": "webpack-dev-server"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "serv": "static src"
   },
+  "autor": "Kazakov",
   "license": "ISC",
   "dependencies": {
-    "@zendeskgarden/react-radios": "^3.4.8",
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
     "babel-polyfill": "^6.9.1",
@@ -33,16 +34,19 @@
     "redux-thunk": "^2.1.0",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
-    "url-loader": "^1.1.2",
-    "webpack": "^1.13.1",
-    "webpack-dev-middleware": "^1.6.1",
-    "webpack-dev-server": "^1.14.1",
-    "webpack-hot-middleware": "^2.11.0"
+    "url-loader": "^1.1.2"
   },
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
     "babel-plugin-react-transform": "^2.0.2",
     "babel-preset-stage-0": "^6.5.0",
-    "react-transform-hmr": "^1.0.4"
+    "node-static": "^0.7.11",
+    "path": "^0.12.7",
+    "react-transform-hmr": "^1.0.4",
+    "webpack": "^1.13.1",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.11.0"
   }
 }
